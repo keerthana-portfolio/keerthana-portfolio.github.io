@@ -1,0 +1,82 @@
+
+.box{
+  background-color:#F28482;
+  
+}
+
+
+body {
+  background: url("../assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Trebuchet MS','Garamond';
+}
+
+.nav-link,.navbar-brand{
+  color:#011627 !important;
+  font-size:1.3rem;
+  }
+a:hover{
+color:#F7EDD1 !important;
+font-weight: 500;
+}
+.navbar-brand:hover{
+  color:#011627 !important;
+  font-weight:normal;
+}
+h1,h2,h3,.h4,.bright,.display-6,.fa-graduation-cap,svg{
+  color:#011627;
+  
+}
+.subheading{
+  font-size:1.8rem;
+}
+h1{
+  text-shadow: .1rem .1rem .1rem #f7fff7;
+}
+section{
+  padding-top:10rem;
+  
+  background-color:rgba(240,190,195,.9);
+
+  display:block;
+
+}
+.custom-padding{
+  padding-bottom:7rem;
+}
+
+#intro-section{
+    background-color:rgba(240,190,195,.9);
+
+}
+p,li{
+  font-size:1.5rem;
+  color:#011627;
+  
+}
+
+.custom-size{
+  font-size:1.3rem;
+  
+  
+}
+.blockquote,p{
+  text-indent:5rem;
+  
+}
+.custom-indent{
+  text-indent:2.8rem;
+  color:#011627;
+
+}
+.icon-indent{
+  text-indent:2.5rem;
+  
+}
+.custom-justify{
+  text-align:justify;
+}
+

@@ -1,0 +1,72 @@
+.box{
+  background-color:#F28482;
+  
+}
+
+
+
+body {
+  background: url("../assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Trebuchet MS','Garamond';
+}
+
+.nav-link,.navbar-brand{
+  color:#011627 !important;
+  font-size:1.3rem;
+  }
+a:hover{
+color:#F7EDD1 !important;
+font-weight: 500;
+}
+.navbar-brand:hover{
+  color:#011627 !important;
+  font-weight:normal;
+}
+
+
+h1,.subheading{
+  color:#011627;
+  text-shadow: .1rem .1rem .1rem #F7EDD1;
+}
+h2{
+	color:#011627;
+  font-weight:550;
+}
+
+#intro-section{
+  background-color:rgba(240,190,195,.9);
+    
+
+}
+p,li{
+  font-size:1.5rem;
+  color:#011627;
+  
+}
+section{
+  padding-top:3rem;
+  
+  background-color:rgba(240,190,195,.9);
+  padding-bottom:5rem;
+  display:block;
+
+}
+.img-thumbnail{
+  background-color:#F7EDD1;
+}
+
+.custom-indent{
+  text-indent:2.8rem;
+}
+video{
+  width:100%;
+  height:auto;
+}
+.case{
+  font-weight: 550;
+text-shadow: .1rem .1rem .1rem #F7EDD1;
+}

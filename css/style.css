@@ -1,0 +1,111 @@
+
+
+
+/*hello animation*/
+
+h1 {
+  animation: type 3s steps(9);
+  white-space: nowrap;
+  overflow: hidden;   
+padding-top:5rem;
+
+ width:9ch;
+}
+
+@keyframes type{
+  0%{
+    width:0ch;
+  }
+  100%{
+    width:9ch;
+  }
+}
+/*hello animation*/
+.box{
+  background-color: #AEAEAE;
+  
+}
+
+
+
+body {
+  background: url("../assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Trebuchet MS','Garamond';
+}
+
+.nav-link,.navbar-brand{
+  color:#000000 !important;
+  font-size:1.3rem;
+  }
+.menu:hover{
+background-color:#FFFFFF;
+font-size:1.3rem;
+}
+.navbar-brand:hover{
+  color:#000000 !important;
+  background-color:#AEAEAE !important;
+  font-weight:normal;
+}
+.icon{
+  color:#000000 !important;
+  
+}
+.icon:hover{
+  
+  color:#FFFFFF !important;
+}
+h3{
+  
+  font-size:2rem;
+}
+
+
+
+p{
+  font-size:1.5rem;
+  color:#011627;
+  
+}
+section{
+  padding-top:3rem;
+  
+  padding-bottom:5rem;
+  display:block;
+
+}
+.img-thumbnail{
+  background-color:#F7EDD1;
+}
+.btn-primary{
+  background-color:#000000;
+  color:#FFFFFF;
+  font-weight:600;
+  border:none;
+}
+.btn-primary:hover{
+  background-color:#000000;
+  color:#FFFFFF;
+  font-weight:600;
+  border:none;
+  font-size:1.2rem;
+}
+.custom-indent{
+  text-indent:2.8rem;
+  
+
+}
+.card,.card-body{
+  float:left;
+  margin:1%;
+  max-width: 21rem;
+}
+@media screen and (max-width: 992px) {
+  .card,.card-body{
+  margin: 0 auto;
+  max-width: 100%;
+}
+}

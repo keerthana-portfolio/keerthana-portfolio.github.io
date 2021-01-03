@@ -1,0 +1,110 @@
+
+.box{
+  background-color: #AEAEAE;
+  
+}
+
+
+
+body {
+  background: url("../assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Trebuchet MS','Garamond';
+}
+
+.nav-link,.navbar-brand{
+  color:#000000 !important;
+  font-size:1.3rem;
+  }
+.menu:hover{
+background-color:#FFFFFF;
+font-size:1.3rem;
+}
+.navbar-brand:hover{
+  color:#000000 !important;
+  background-color:#AEAEAE !important;
+  font-weight:normal;
+}
+.icon{
+  color:#000000 !important;
+  
+}
+.icon:hover{
+  
+  color:#FFFFFF !important;
+}
+h1,h3,.h4,.bright,.display-6,.fa-graduation-cap,svg{
+  color:#011627;
+  
+}
+h2{
+  color:#011627;
+  font-family:'Franklin Gothic','Century Gothic';
+}
+.subheading{
+  font-size:1.8rem;
+}
+
+section{
+  padding-top:5rem;
+  
+  
+
+  display:block;
+
+}
+
+.custom-padding{
+  padding-bottom:7rem;
+}
+
+p,.edu{
+  font-size:1.5rem;
+  color:#011627;
+  
+}
+
+.custom-size{
+  font-size:1.3rem;
+  
+  
+}
+.blockquote,p{
+  text-indent:5rem;
+  
+}
+.custom-indent{
+  text-indent:2.8rem;
+  color:#011627;
+
+}
+.icon-indent{
+  text-indent:2.5rem;
+  
+}
+.custom-justify{
+  text-align:justify;
+}
+
+.cus_i{
+  width:6%;
+  height:6%;
+  padding-right:1%;
+}
+.top{
+  float:right;
+  font-size:1.5rem;
+  padding-bottom:5%;
+  color: #000000;
+  text-decoration:none;
+  font-family:'Franklin Gothic','Century Gothic';
+
+}
+.top:hover{
+  font-size:1.6rem;
+  color:#000000;
+  font-family:'Franklin Gothic','Century Gothic';
+}

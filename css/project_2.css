@@ -1,0 +1,91 @@
+.box{
+  background-color: #AEAEAE;
+  
+}
+
+
+
+
+body {
+  background: url("../assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Trebuchet MS','Garamond';
+}
+
+.nav-link,.navbar-brand{
+  color:#000000 !important;
+  font-size:1.3rem;
+  }
+.menu:hover{
+background-color:#FFFFFF;
+font-size:1.3rem;
+}
+.navbar-brand:hover{
+  color:#000000 !important;
+  background-color:#AEAEAE !important;
+  font-weight:normal;
+}
+.icon{
+  color:#000000 !important;
+  
+}
+.icon:hover{
+  
+  color:#FFFFFF !important;
+}
+
+h1,.subheading,.res{
+  color:#011627;
+}
+h2{
+  color:#011627;
+  font-family:'Franklin Gothic','Century Gothic';
+}
+
+
+p,.list{
+  font-size:1.5rem;
+  color:#011627;
+  
+}
+section{
+  padding-top:3rem;
+  
+  
+  padding-bottom:5rem;
+  display:block;
+
+}
+img{
+  width:100%;
+  
+}
+
+.custom-indent{
+  text-indent:2.8rem;
+}
+video{
+  width:100%;
+  height:auto;
+}
+
+.img-thumbnail{
+  color:#000000;
+}
+.top{
+  float:right;
+  font-size:1.5rem;
+  padding-bottom:5%;
+  color: #000000;
+  text-decoration:none;
+  font-family:'Franklin Gothic','Century Gothic';
+
+}
+.top:hover{
+  font-size:1.6rem;
+  color:#000000;
+  font-family:'Franklin Gothic','Century Gothic';
+}

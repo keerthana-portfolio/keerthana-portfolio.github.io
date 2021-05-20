@@ -104,6 +104,9 @@ p{
 
  width:100%;
   }
+  .centericon{
+    text-align: center;
+  }
   .hero{
     display: none;
   }

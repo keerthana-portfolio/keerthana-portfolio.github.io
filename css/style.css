@@ -1,13 +1,11 @@
 
-
-
 /*hello animation*/
 
 h1 {
   animation: type 3s steps(9);
   white-space: nowrap;
   overflow: hidden;   
-padding-top:5rem;
+
 
  width:9ch;
 }
@@ -21,91 +19,163 @@ padding-top:5rem;
   }
 }
 /*hello animation*/
-.box{
-  background-color: #AEAEAE;
-  
-}
+
 
 
 
 body {
-  background: url("../assets/bg.svg") no-repeat center center fixed;
+  
+  background-color: #FFFDE6;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-family: 'Trebuchet MS','Garamond';
+  font-family: 'Proza Libre','Garamond';
+  color:#221F20;
 }
-
-.nav-link,.navbar-brand{
-  color:#000000 !important;
+.nav-link{
+  color:#221F20 !important;
   font-size:1.3rem;
   }
-.menu:hover{
-background-color:#FFFFFF;
-font-size:1.3rem;
+.nav-link:hover{
+  color:#FFFDE6 !important;
 }
-.navbar-brand:hover{
-  color:#000000 !important;
-  background-color:#AEAEAE !important;
-  font-weight:normal;
+.menu:hover{
+background-color:#221F20;
+font-size:1.3rem;
+
+}
+.hero{
+  position:relative;
+  top:-350px;
 }
 .icon{
-  color:#000000 !important;
+  color:#221F20 !important;
   
 }
 .icon:hover{
-  
-  color:#FFFFFF !important;
+  font-size:1.1em;
 }
-h3{
-  
-  font-size:2rem;
-}
-
 
 
 p{
   font-size:1.5rem;
-  color:#011627;
+  
   
 }
-section{
-  padding-top:3rem;
-  
-  padding-bottom:5rem;
-  display:block;
 
-}
-.img-thumbnail{
-  background-color:#F7EDD1;
-}
+
 .btn-primary{
-  background-color:#000000;
-  color:#FFFFFF;
+  background-color:#221F20;
+  color:#FFFDE6;
   font-weight:600;
   border:none;
 }
 .btn-primary:hover{
-  background-color:#000000;
-  color:#FFFFFF;
+  background-color:#221F20;
+  color:#FFFDE6;
   font-weight:600;
   border:none;
   font-size:1.2rem;
 }
-.custom-indent{
-  text-indent:2.8rem;
-  
 
-}
 .card,.card-body{
   float:left;
-  margin:1%;
+  background-color:#FFFDE6; 
   max-width: 21rem;
 }
-@media screen and (max-width: 992px) {
-  .card,.card-body{
-  margin: 0 auto;
-  max-width: 100%;
+
+
+@media only screen and (max-device-width:768px){
+  .card, .card-body{
+      width:100% !important;
+      float: none;
+      margin: 0 auto;
+  }
+  h1,h2,h3{
+   text-align: center;
+  }
+  h1{
+    animation: none;
+
+  white-space: normal;
+  overflow: visible;   
+
+
+ width:100%;
+  }
+  .hero{
+    display: none;
+  }
+  .center{
+    text-align: center;
+  }
 }
-}
+
+
+/*image animation-hero */
+ .bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(3000px, 0, 0);
+  transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(-25px, 0, 0);
+  transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(-5px, 0, 0);
+  transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(3000px, 0, 0);
+  transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: translate3d(-25px, 0, 0);
+  transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  }
+  90% {
+  -webkit-transform: translate3d(-5px, 0, 0);
+  transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+  /*image animation-hero */

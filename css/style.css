@@ -85,9 +85,25 @@ p{
   max-width: 21rem;
   margin-right: 10px;
 }
+.wrapping{
+  
+  
+  position:relative;
+  top:-261px;
+  
+}
+@media only screen and (min-device-width:2560px){
+.wrapping{
+    
+    top:inherit;
+    white-space: normal;
+    overflow: visible;
+
+ }
+}
 
 
-@media only screen and (max-device-width:768px){
+@media only screen and (max-device-width:1000px){
   .card, .card-body{
       width:100% !important;
       float: none;
@@ -114,6 +130,13 @@ p{
   .center{
     text-align: center;
   }
+  .wrapping{
+    
+    top:inherit;
+    white-space: normal;
+    overflow: visible;
+
+ }
 }
 
 

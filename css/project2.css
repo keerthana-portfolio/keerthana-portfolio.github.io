@@ -24,13 +24,11 @@ font-size:1.3rem;
 
 }
 .icon{
-  color:#221F20 !important;
-  
+  color:#221F20;
+   font-size:1.1em;
 }
 .icon:hover{
- 
-   font-size:1.1em;
-
+  color: #007E23;
 }
 
 p{

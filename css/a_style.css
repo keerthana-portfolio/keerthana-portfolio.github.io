@@ -23,13 +23,7 @@ background-color:#221F20;
 font-size:1.3rem;
 
 }
-.icon{
-  color:#221F20 !important;
-  
-}
-.icon:hover{
-  font-size:1.1em;
-}
+
 .hero{
   position:relative;
   top:-450px;
@@ -46,11 +40,11 @@ p{
   line-height: 200%;
 }
 .icon{
-  color:#221F20 !important;
-  
+  color:#221F20;
+   font-size:1.1em;
 }
 .icon:hover{
-  font-size:1.3em;
+  color: #0132B1;
 }
 .wrapping{
   white-space: nowrap;
